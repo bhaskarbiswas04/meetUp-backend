@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 async function startServer() {
     try {
       await initializeDatabase();
-    //   await seedInitialEvents();
+      await seedInitialEvents();
 
       // Default Route.
       app.get("/", (req, res) => {
