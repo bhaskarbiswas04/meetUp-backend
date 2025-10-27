@@ -60,6 +60,7 @@ app.get("/events", async (req, res)=>{
     }
 })
 
+//Route to get Event By Name.
 app.get("/events/title/:title", async (req, res) => {
   try {
     const event = await EventModel.findOne({ title: req.params.title });
