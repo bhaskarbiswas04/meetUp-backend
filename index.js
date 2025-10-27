@@ -17,7 +17,7 @@ app.use(cors(corsOptions));
 async function startServer() {
     try {
       await initializeDatabase();
-      await seedInitialEvents();
+    //   await seedInitialEvents();
 
       // Default Route.
       app.get("/", (req, res) => {
@@ -59,6 +59,16 @@ app.get("/events", async (req, res)=>{
         res.status(500).json({error: "Failed to fetch all Events data."})
     }
 })
+
+app.get("/events/title/:title", async (req, res) => {
+  try {
+    const event = await EventModel.findOne({ title: req.params.title });
+    if (!event) return res.status(404).json({ message: "Event not found" });
+    res.json(event);
+  } catch (error) {
+    res.status(500).json({ error: "Failed to fetch event" });
+  }
+});
 
 
 
