@@ -1,9 +1,9 @@
 const eventsData = [
   {
     title: "Tech Conference",
-    date: "Thu Jul 13 2023",
-    eventStartTime: "7:00:00 AM",
-    eventEndTime: "Thu Jul 13 2023 at 4:00:00 PM",
+    date: "Thu Jul 13 2025",
+    eventStartTime: "Thu Jul 13 2025 at 7:00:00 AM",
+    eventEndTime: "Thu Jul 13 2025 at 4:00:00 PM",
     eventType: "Offline",
     eventImageUrl:
       "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg",
@@ -16,15 +16,25 @@ const eventsData = [
     location: "Grand Tech Arena, 45 Silicon Street, Bangalore",
     price: 4500,
     speakers: [
-      { id: 1, name: "Ananya Sharma", designation: "AI Research Lead" },
-      { id: 2, name: "Rajesh Kumar", designation: "Cloud Architect" },
+      {
+        id: 1,
+        name: "Ananya Sharma",
+        designation: "AI Research Lead",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/68.jpg",
+      },
+      {
+        id: 2,
+        name: "Rajesh Kumar",
+        designation: "Cloud Architect",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/21.jpg",
+      },
     ],
   },
   {
     title: "AI & Machine Learning Summit",
-    date: "Mon Aug 21 2023",
-    eventStartTime: "10:00:00 AM",
-    eventEndTime: "Mon Aug 21 2023 at 5:00:00 PM",
+    date: "Mon Aug 21 2025",
+    eventStartTime: "Mon Aug 21 2025 at 10:00:00 AM",
+    eventEndTime: "Mon Aug 21 2025 at 5:00:00 PM",
     eventType: "Online",
     eventImageUrl:
       "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg",
@@ -37,15 +47,25 @@ const eventsData = [
     location: "Virtual Event (Zoom)",
     price: 2500,
     speakers: [
-      { id: 1, name: "Priya Verma", designation: "ML Engineer" },
-      { id: 2, name: "David Li", designation: "Data Scientist" },
+      {
+        id: 1,
+        name: "Priya Verma",
+        designation: "ML Engineer",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/45.jpg",
+      },
+      {
+        id: 2,
+        name: "David Li",
+        designation: "Data Scientist",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/62.jpg",
+      },
     ],
   },
   {
     title: "Startup Networking Night",
-    date: "Sat Sep 9 2023",
-    eventStartTime: "6:30:00 PM",
-    eventEndTime: "Sat Sep 9 2023 at 10:00:00 PM",
+    date: "Sat Sep 9 2025",
+    eventStartTime: "Sat Sep 9 2025 at 6:30:00 PM",
+    eventEndTime: "Sat Sep 9 2025 at 10:00:00 PM",
     eventType: "Offline",
     eventImageUrl:
       "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
@@ -58,15 +78,25 @@ const eventsData = [
     location: "The Hive Co-Work, 21 Innovation Lane, Pune",
     price: 2000,
     speakers: [
-      { id: 1, name: "Nikhil Taneja", designation: "Venture Capitalist" },
-      { id: 2, name: "Riya Kapoor", designation: "Founder, GrowthX" },
+      {
+        id: 1,
+        name: "Nikhil Taneja",
+        designation: "Venture Capitalist",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/12.jpg",
+      },
+      {
+        id: 2,
+        name: "Riya Kapoor",
+        designation: "Founder, GrowthX",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/37.jpg",
+      },
     ],
   },
   {
     title: "Design Thinking Workshop",
-    date: "Wed Oct 11 2023",
-    eventStartTime: "3:00:00 PM",
-    eventEndTime: "Wed Oct 11 2023 at 6:00:00 PM",
+    date: "Wed Oct 11 2025",
+    eventStartTime: "Wed Oct 11 2025 at 3:00:00 PM",
+    eventEndTime: "Wed Oct 11 2025 at 6:00:00 PM",
     eventType: "Online",
     eventImageUrl:
       "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
@@ -79,15 +109,25 @@ const eventsData = [
     location: "Virtual Event (Google Meet)",
     price: 1800,
     speakers: [
-      { id: 1, name: "Laura Gomez", designation: "UX Strategist" },
-      { id: 2, name: "Arjun Mehta", designation: "Product Designer" },
+      {
+        id: 1,
+        name: "Laura Gomez",
+        designation: "UX Strategist",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/50.jpg",
+      },
+      {
+        id: 2,
+        name: "Arjun Mehta",
+        designation: "Product Designer",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/19.jpg",
+      },
     ],
   },
   {
     title: "Product Launch Meetup",
-    date: "Fri Nov 24 2023",
-    eventStartTime: "11:00:00 AM",
-    eventEndTime: "Fri Nov 24 2023 at 1:00:00 PM",
+    date: "Fri Nov 24 2025",
+    eventStartTime: "Fri Nov 24 2025 at 11:00:00 AM",
+    eventEndTime: "Fri Nov 24 2025 at 1:00:00 PM",
     eventType: "Offline",
     eventImageUrl:
       "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
@@ -100,15 +140,25 @@ const eventsData = [
     location: "LaunchPad HQ, 10 Tech Avenue, Hyderabad",
     price: 3500,
     speakers: [
-      { id: 1, name: "Isha Sen", designation: "Product Manager" },
-      { id: 2, name: "Tom Anderson", designation: "CTO, LaunchPad" },
+      {
+        id: 1,
+        name: "Isha Sen",
+        designation: "Product Manager",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/22.jpg",
+      },
+      {
+        id: 2,
+        name: "Tom Anderson",
+        designation: "CTO, LaunchPad",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/24.jpg",
+      },
     ],
   },
   {
     title: "Developer Bootcamp",
-    date: "Tue Dec 19 2023",
-    eventStartTime: "9:00:00 AM",
-    eventEndTime: "Tue Dec 19 2023 at 6:00:00 PM",
+    date: "Tue Dec 19 2025",
+    eventStartTime: "Tue Dec 19 2025 at 9:00:00 AM",
+    eventEndTime: "Tue Dec 19 2025 at 6:00:00 PM",
     eventType: "Offline",
     eventImageUrl:
       "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg",
@@ -121,8 +171,18 @@ const eventsData = [
     location: "Tech Park, 55 Developer Road, Bengaluru",
     price: 5000,
     speakers: [
-      { id: 1, name: "Rohan Das", designation: "Full Stack Instructor" },
-      { id: 2, name: "Emily Carter", designation: "Senior Developer" },
+      {
+        id: 1,
+        name: "Rohan Das",
+        designation: "Full Stack Instructor",
+        profileImageUrl: "https://randomuser.me/api/portraits/men/51.jpg",
+      },
+      {
+        id: 2,
+        name: "Emily Carter",
+        designation: "Senior Developer",
+        profileImageUrl: "https://randomuser.me/api/portraits/women/43.jpg",
+      },
     ],
   },
 ];
