@@ -6,6 +6,14 @@ const {initializeDatabase} = require("./db/db.connect")
 const EventModel = require("./models/events.model");
 const {eventsData} = require("./data/eventsData")
 
+const cors = require("cors");
+const corsOptions = {
+  origin: "*",
+  credentials: true,
+  optionSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+
 async function startServer() {
     try {
       await initializeDatabase();
