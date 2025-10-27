@@ -20,13 +20,15 @@ const eventsData = [
         id: 1,
         name: "Ananya Sharma",
         designation: "AI Research Lead",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/68.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
       },
       {
         id: 2,
         name: "Rajesh Kumar",
         designation: "Cloud Architect",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/21.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
       },
     ],
   },
@@ -51,13 +53,15 @@ const eventsData = [
         id: 1,
         name: "Priya Verma",
         designation: "ML Engineer",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/45.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
       },
       {
         id: 2,
         name: "David Li",
         designation: "Data Scientist",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/62.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
       },
     ],
   },
@@ -82,13 +86,15 @@ const eventsData = [
         id: 1,
         name: "Nikhil Taneja",
         designation: "Venture Capitalist",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/12.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
       },
       {
         id: 2,
         name: "Riya Kapoor",
         designation: "Founder, GrowthX",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/37.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
       },
     ],
   },
@@ -113,13 +119,15 @@ const eventsData = [
         id: 1,
         name: "Laura Gomez",
         designation: "UX Strategist",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/50.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
       },
       {
         id: 2,
         name: "Arjun Mehta",
         designation: "Product Designer",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/19.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
       },
     ],
   },
@@ -128,7 +136,7 @@ const eventsData = [
     date: "Fri Nov 24 2025",
     eventStartTime: "Fri Nov 24 2025 at 11:00:00 AM",
     eventEndTime: "Fri Nov 24 2025 at 1:00:00 PM",
-    eventType: "Offline",
+    eventType: "Online",
     eventImageUrl:
       "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
     hostedBy: "LaunchPad Innovations",
@@ -144,13 +152,15 @@ const eventsData = [
         id: 1,
         name: "Isha Sen",
         designation: "Product Manager",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/22.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
       },
       {
         id: 2,
         name: "Tom Anderson",
         designation: "CTO, LaunchPad",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/24.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
       },
     ],
   },
@@ -175,13 +185,15 @@ const eventsData = [
         id: 1,
         name: "Rohan Das",
         designation: "Full Stack Instructor",
-        profileImageUrl: "https://randomuser.me/api/portraits/men/51.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
       },
       {
         id: 2,
         name: "Emily Carter",
         designation: "Senior Developer",
-        profileImageUrl: "https://randomuser.me/api/portraits/women/43.jpg",
+        profileImageUrl:
+          "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
       },
     ],
   },
