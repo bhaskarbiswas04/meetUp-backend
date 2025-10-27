@@ -13,6 +13,9 @@ const speakerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  profileImageUrl: {
+    type: String
+  }
 });
 
 const eventSchema = new mongoose.Schema(
